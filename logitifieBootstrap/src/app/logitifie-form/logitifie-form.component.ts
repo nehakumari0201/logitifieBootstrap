@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./logitifie-form.component.css']
 })
 export class LogitifieFormComponent implements OnInit {
+  selectedFiles:any;
 
   constructor() { }
 
   ngOnInit(): void {
   }
+//   selectFile(event :any) {
+//     this.selectedFiles = event.target.files;
+//     console.log(this.selectedFiles);
 
+// }
 }
