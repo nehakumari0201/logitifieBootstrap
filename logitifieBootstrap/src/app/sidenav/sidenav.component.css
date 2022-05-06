@@ -1,0 +1,10 @@
+.sideNav
+{
+  background: #01054F;
+  box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.45);
+  color: white;
+}
+.size
+{
+  font-size: larger;
+}
