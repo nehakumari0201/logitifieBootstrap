@@ -1,3 +1,4 @@
+import { ProgressbarComponent } from './progressbar/progressbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -6,7 +7,8 @@ import { LogitifieFormComponent } from './logitifie-form/logitifie-form.componen
 const routes: Routes = [
   {path:'logitifieForm',component:LogitifieFormComponent},
   {path:'',redirectTo:'logitifieForm',pathMatch:'full'},
-  {path:'sidenav',component:SidenavComponent}
+  // {path:'sidenav',component:SidenavComponent}
+  {path:'progressBar',component:ProgressbarComponent}
 ];
 
 @NgModule({

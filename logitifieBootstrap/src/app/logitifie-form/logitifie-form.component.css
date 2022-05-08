@@ -2,7 +2,6 @@
 {
   width:85%;
   height: 70%;
-  margin-top: 2%;
   margin-left: 5%;
   background: #F6F3F3;
 }
@@ -23,7 +22,7 @@
   color: white;
 }
 .center{
-  width:40%;
+  width:30%;
   margin: auto;
 }
 .box1
@@ -35,4 +34,7 @@
 .size
 {
   font-size: larger;
+}
+.bar{
+  margin-right: 8%;
 }
