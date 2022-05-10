@@ -3,8 +3,27 @@
   background: #01054F;
   box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.45);
   color: white;
+  width:100%;
 }
 .size
 {
   font-size: larger;
+}
+.size1{
+  width:30%;
+}
+
+.design
+{
+  border:1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  /* margin-right:5% ; */
+}
+.btn{
+  background: #01054F;
+  color:white;
+  font-size: larger;
+  font-weight: bold;
 }
