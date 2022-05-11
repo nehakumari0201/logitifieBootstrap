@@ -17,9 +17,9 @@ import { BsDropdownModule,BsDropdownConfig } from 'ngx-bootstrap/dropdown';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BsDropdownModule
+    BsDropdownModule,
   ],
-  providers: [],
+  providers: [BsDropdownConfig],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
