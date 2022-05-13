@@ -1,1 +1,108 @@
-<p>client-form works!</p>
+<!--
+<div class="d-grid d-md-flex  mt-2 ">
+  <button class="btn btncolor me-md-2 p-2" type="button"> <i class="bi bi-arrow-left"></i>Go back</button>
+</div>
+<div class="d-flex flex-lg-row justify-content-end">
+  <div class="d-grid gap-2 d-md-flex  input-group-lg  center">
+    <label class="mt-2 size" >Account</label>
+    <select class="form-control  box1 " >
+      <option label="--select  --"></option>
+      <option value="Coporate">Coporate</option>
+      <option value="SubContractor">SubContractor</option>
+      <option value="New Applicant">New Applicant</option>
+      <option value="Individual">Individual</option>
+    </select>
+  </div>
+  <div>
+    <app-progressbar></app-progressbar>
+  </div> -->
+
+<!-- </div> -->
+<div class="card">
+  <div class="card-body">
+   <div class="m-4">
+     <form>
+       <h4>Finance Setup</h4>
+       <div class="row">
+        <div class="col-3  input-group-lg">
+         <label for="Job Prefix">Job Prefix</label>
+         <input  type="text"  class="form-control mt-2 mb-3  box" id="Job Prefix" >
+        </div>
+        <div class="col-3  input-group-lg">
+         <label for="Admin Fee %" >Admin Fee %</label>
+         <input  type="number"  class="form-control mt-2 mb-3  box" id="Admin Fee %" >
+       </div>
+       <div class="col-3  input-group-lg">
+        <label for="VAT Charge %" >VAT Charge %</label>
+        <input  type="number"  class="form-control mt-2 mb-3  box" id="VAT Charge %" >
+      </div>
+      <div class="col-3  input-group-lg">
+        <label for="Credit Limit £" >Credit Limit £</label>
+        <input  type="number"  class="form-control mt-2 mb-3  box" id="Credit Limit £" >
+      </div>
+       </div>
+       <div class="row">
+        <div class="col-3  input-group-lg ">
+         <label for="Payment Terms">Payment Terms</label>
+         <select class="form-control mt-2 mb-3  box " >
+          <option label="--select  --"></option>
+          <option value="term" *ngFor="let term of paymentTerms">{{term}}</option>
+        </select>
+        </div>
+        <div class="col-3  input-group-lg">
+         <label for="Invoice Cycle" >Invoice Cycle</label>
+         <select class="form-control mt-2 mb-3  box">
+          <option label="--select  --"></option>
+          <option value="Daily">Daily</option>
+          <option value="Monthly">Monthly</option>
+          <option value="Weakly">Weakly</option>
+      </select>
+       </div>
+       <div class="col-3  input-group-lg">
+        <label >Send Invoice With Payment Link?</label>
+        <select class="form-control mt-2 mb-3  box">
+          <option label="--select  --"></option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+      </select>
+      </div>
+      <div class="col-3  input-group-lg">
+        <label >Send Invoice Automatic?</label>
+        <select class="form-control mt-2 mb-3  box">
+          <option label="--select  --"></option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+      </select>
+       </div>
+       </div>
+       <div class="row">
+        <div class="col-3  input-group-lg">
+         <label >Automatic Credit Control?</label>
+         <select class="form-control mt-2 mb-3  box">
+          <option label="--select  --"></option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+         </select>
+          </div>
+        <div class="col-3  input-group-lg">
+         <label >Credit Control Email Address</label>
+         <input  type="email"  class="form-control mt-2 mb-3  box" >
+         </div>
+       <div class="col-3  input-group-lg">
+        <label >Late Payment Charge %</label>
+         <input  type="number"  class="form-control mt-2 mb-3  box" >
+       </div>
+          <div class="col-3  input-group-lg">
+          <label>Currency</label>
+          <select class="form-control mt-2 mb-3  box">
+            <option label="--select  --"></option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GPB">GPB</option>
+        </select>
+       </div>
+        </div>
+        </form>
+   </div>
+  </div>
+</div>
