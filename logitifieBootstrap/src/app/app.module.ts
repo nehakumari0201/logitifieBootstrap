@@ -7,12 +7,14 @@ import { LogitifieFormComponent } from './logitifie-form/logitifie-form.componen
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
 import { BsDropdownModule,BsDropdownConfig } from 'ngx-bootstrap/dropdown';
+import { ClientFormComponent } from './client-form/client-form.component';
 @NgModule({
   declarations: [
     AppComponent,
     LogitifieFormComponent,
     SidenavComponent,
-    ProgressbarComponent
+    ProgressbarComponent,
+    ClientFormComponent
   ],
   imports: [
     BrowserModule,
