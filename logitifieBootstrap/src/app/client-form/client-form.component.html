@@ -1,6 +1,6 @@
-<!--
-<div class="d-grid d-md-flex  mt-2 ">
-  <button class="btn btncolor me-md-2 p-2" type="button"> <i class="bi bi-arrow-left"></i>Go back</button>
+
+<div class="d-grid d-md-flex  mt-4 ">
+  <button class="btn btncolor me-md-2 p-2" type="button" routerLink="/logitifieForm"> <i class="bi bi-arrow-left"></i>Go back</button>
 </div>
 <div class="d-flex flex-lg-row justify-content-end">
   <div class="d-grid gap-2 d-md-flex  input-group-lg  center">
@@ -15,14 +15,14 @@
   </div>
   <div>
     <app-progressbar></app-progressbar>
-  </div> -->
+  </div>
 
-<!-- </div> -->
+</div>
 <div class="card">
   <div class="card-body">
    <div class="m-4">
      <form>
-       <h4>Finance Setup</h4>
+       <h4>FINANCE SETUP</h4>
        <div class="row">
         <div class="col-3  input-group-lg">
          <label for="Job Prefix">Job Prefix</label>
@@ -102,6 +102,48 @@
         </select>
        </div>
         </div>
+        <h4 class="mt-2">COMMISSION SETUP</h4>
+        <div class="row">
+          <div class="col-3  input-group-lg">
+            <label >Salesman Name</label>
+            <select class="form-control mt-2 mb-3  box">
+             <option label="--select  --"></option>
+             <option value="term" *ngFor="let salemanName of sales">{{salemanName}}</option>
+             </select>
+             </div>
+          <div class="col-3  input-group-lg">
+           <label for="SalesmanCommission" >Salesman Commission</label>
+           <input  type="number"  class="form-control mt-2 mb-3  box" id="Salesman Commission" >
+         </div>
+         <div class="col-3  input-group-lg">
+          <label  >Account Manager Name</label>
+          <select class="form-control mt-2 mb-3  box">
+          <option label="--select  --"></option>
+          <option value="term" *ngFor="let manager of  managers">{{manager}}</option>
+          </select>
+        </div>
+        <div class="col-3  input-group-lg">
+          <label for="Account Manager Commission" >Account Manager Commission</label>
+          <input  type="number"  class="form-control mt-2 mb-3  box" id="Account Manager Commission" >
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-3  input-group-lg">
+            <label >Send Invoice Automatic?</label>
+            <select class="form-control mt-2 mb-3  box">
+              <option label="--select  --"></option>
+              <option value="Active">Active</option>
+              <option value="On Hold">On Hold</option>
+              <option value="Blocked"> Blocked</option>
+          </select>
+           </div>
+           <div class="d-grid  d-md-flex justify-content-md-end ">
+            <button class="btn btncolor p-2  " type="button" routerLink="/clientForm">Next<i class="bi bi-arrow-right"></i></button>
+        </div>
+        </div>
+         <!-- <div class="row">
+
+        </div> -->
         </form>
    </div>
   </div>

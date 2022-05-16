@@ -1,8 +1,8 @@
 .card
 {
   width:100%;
-  height: 65%;
   background: #F6F3F3;
+  height: fit-content;
 }
 .box{
   background: #FFFFFF;
