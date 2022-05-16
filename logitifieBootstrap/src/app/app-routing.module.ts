@@ -1,3 +1,4 @@
+import { ClientForm2Component } from './client-form2/client-form2.component';
 import { ClientFormComponent } from './client-form/client-form.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
@@ -10,7 +11,8 @@ const routes: Routes = [
   {path:'',redirectTo:'logitifieForm',pathMatch:'full'},
   // {path:'sidenav',component:SidenavComponent}
   {path:'progressBar',component:ProgressbarComponent},
-  {path:'clientForm',component:ClientFormComponent}
+  {path:'clientForm',component:ClientFormComponent},
+  {path:'clientForm2',component:ClientForm2Component}
 ];
 
 @NgModule({
