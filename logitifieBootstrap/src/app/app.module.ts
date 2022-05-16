@@ -8,13 +8,15 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
 import { BsDropdownModule,BsDropdownConfig } from 'ngx-bootstrap/dropdown';
 import { ClientFormComponent } from './client-form/client-form.component';
+import { ClientForm2Component } from './client-form2/client-form2.component';
 @NgModule({
   declarations: [
     AppComponent,
     LogitifieFormComponent,
     SidenavComponent,
     ProgressbarComponent,
-    ClientFormComponent
+    ClientFormComponent,
+    ClientForm2Component
   ],
   imports: [
     BrowserModule,
