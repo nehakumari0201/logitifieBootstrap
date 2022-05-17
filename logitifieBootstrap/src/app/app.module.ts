@@ -9,6 +9,7 @@ import { ProgressbarComponent } from './progressbar/progressbar.component';
 import { BsDropdownModule,BsDropdownConfig } from 'ngx-bootstrap/dropdown';
 import { ClientFormComponent } from './client-form/client-form.component';
 import { ClientForm2Component } from './client-form2/client-form2.component';
+import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { ClientForm2Component } from './client-form2/client-form2.component';
     BrowserModule,
     AppRoutingModule,
     BsDropdownModule,
+    NgxIntlTelInputModule
   ],
   providers: [BsDropdownConfig],
   bootstrap: [AppComponent]
