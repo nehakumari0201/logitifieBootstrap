@@ -10,6 +10,10 @@ import { BsDropdownModule,BsDropdownConfig } from 'ngx-bootstrap/dropdown';
 import { ClientFormComponent } from './client-form/client-form.component';
 import { ClientForm2Component } from './client-form2/client-form2.component';
 import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
+import { DropdownComponent } from './dropdown/dropdown.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,13 +21,19 @@ import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
     SidenavComponent,
     ProgressbarComponent,
     ClientFormComponent,
-    ClientForm2Component
+    ClientForm2Component,
+    DropdownComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BsDropdownModule,
-    NgxIntlTelInputModule
+    NgxIntlTelInputModule,
+    FormsModule,
+    ReactiveFormsModule,
+    CommonModule,
+    BrowserAnimationsModule
   ],
   providers: [BsDropdownConfig],
   bootstrap: [AppComponent]

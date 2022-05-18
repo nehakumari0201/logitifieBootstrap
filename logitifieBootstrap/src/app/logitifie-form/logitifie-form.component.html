@@ -2,13 +2,15 @@
 <div class="m-4">
   <button class="btn btn-primary">Go back</button>
 </div> -->
-<div class="d-grid d-md-flex  mt-4 ">
-  <button class="btn btncolor me-md-2 p-2" type="button"> <i class="bi bi-arrow-left"></i>Go back</button>
+<div class="d-grid d-md-flex mt-4">
+  <button class="btn btncolor me-md-2 p-2" type="button">
+    <i class="bi bi-arrow-left"></i>Go back
+  </button>
 </div>
 <div class="d-flex flex-lg-row justify-content-end">
-  <div class="d-grid gap-2 d-md-flex  input-group-lg  center">
-    <label class="mt-2 size" >Account</label>
-    <select class="form-control  box1 " >
+  <div class="d-grid gap-2 d-md-flex input-group-lg center">
+    <label class="mt-2 size">Account</label>
+    <select class="form-control box1">
       <option label="--select  --"></option>
       <option value="Coporate">Coporate</option>
       <option value="SubContractor">SubContractor</option>
@@ -19,113 +21,195 @@
   <div>
     <app-progressbar></app-progressbar>
   </div>
-
 </div>
 <div class="card">
   <div class="card-body">
-   <div class="m-4">
-     <form>
-       <h4>APPLICATION</h4>
-       <div class="row">
-         <div class="col-6  input-group-lg">
-          <label for="Company Name">Company Name</label>
-          <input  type="text"  class="form-control mt-2 mb-3  box" id="Company Name" >
-         </div>
-         <div class="col-4  input-group-lg">
-          <label for="Office Address" class="ms-2">Office Address</label>
-          <input  type="text"  class="form-control mt-2 mb-3 ms-2 box" id="Office Address" >
-        </div>
-        <div class="col-2 input-group-lg">
-          <br>
-         <button class="btn btn-success mt-2 ms-2">+</button>
-         <button class="btn btn-danger mt-2 ms-3"><i class="bi bi-trash-fill"></i></button>
-        </div>
-        <div>
-        </div>
-       </div>
-       <div class="row">
-        <div class="col-3  input-group-lg">
-         <label for="First Name">First Name</label>
-         <input  type="text"  class="form-control mt-2 mb-3  box" id="First Name" >
-        </div>
-        <div class="col-3  input-group-lg">
-         <label for="Last Name" >Last Name</label>
-         <input  type="text"  class="form-control mt-2 mb-3  box" id="Last Name" >
-       </div>
-       <div class="col-3  input-group-lg">
-        <label for="Phone Number" >Phone Number</label>
-        <input  type="tel"  class="form-control mt-2 mb-3  box" id="Phone Number" >
-      </div>
-      <div class="col-3  input-group-lg">
-        <label for="Alt Phone Number" >Alt Phone Number</label>
-        <input  type="tel"  class="form-control mt-2 mb-3  box" id="Alt Phone Number" >
-      </div>
-       </div>
-       <div class="row">
-        <div class="col-3  input-group-lg">
-         <label for="Email Address">Email Address</label>
-         <input  type="text"  class="form-control mt-2 mb-3  box" id="Email Address" >
-        </div>
-        <div class="col-3  input-group-lg">
-         <label for="User Name" >User Name</label>
-         <input  type="text"  class="form-control mt-2 mb-3  box" id="User Name" >
-       </div>
-       <div class="col-3  input-group-lg">
-        <label for="Password" >Password</label>
-        <input  type="password"  class="form-control mt-2 mb-3  box" id="Password" >
-      </div>
-      <div class="col-3  input-group-lg">
-        <label for="Confirm Password" >Confirm Password</label>
-        <input  type="password"  class="form-control mt-2 mb-3  box" id="Confirm Password" >
-      </div>
-       </div>
-       <div class="row">
-        <div class="col-3  input-group-lg">
-         <label >How Did You Hear About Us?</label>
-         <select  class="form-control mt-2 mb-3  box" >
-          <option label="--select  --"></option>
-          <option value="social media">social media</option>
-          <option value="NewPaper">NewPaper</option>
-          <option value="Friends">Friends</option>
-          <option value="Emoplyer">Emoplyer</option>
-        </select>
-        </div>
-        <div class="col-3  input-group-lg">
-         <label >Select Trafic Type</label>
-         <select class="form-control mt-2 mb-3  box" >
-          <option label="--select  --"></option>
-          <option value="Congested traffic">Congested traffic</option>
-          <option value="Organized Traffic">Organized Traffic</option>
-          <option value="Heavy motar Vehile">Heavy motar Vehile</option>
-          <option value="Other vehicle">Other Vehile</option>
-        </select>
-         </div>
-       <div class="col-3  input-group-lg">
-        <label>Select Payment Type</label>
-        <select class="form-control mt-2 mb-3  box">
-          <option label="--select  --"></option>
-          <option value="Debit Card">Debit Card</option>
-          <option value="Credit Card">Credit Card</option>
-          <option value="Modile Payment">Modile Payment</option>
-          <option value="Electronic Bank Transfer">
-            Electronic Bank Transfer
-          </option>
-        </select>
+    <div class="m-4">
+      <form>
+        <h4>APPLICATION</h4>
+        <div class="row">
+          <div class="col-6 input-group-lg">
+            <label for="Company Name">Company Name</label>
+            <input
+              type="text"
+              class="form-control mt-2 mb-3 box"
+              id="Company Name"
+            />
           </div>
-          <div class="col-3  input-group-lg">
-          <label>Upload image</label>
-          <input class="form-control mt-2 mb-3  box" type="file">
-          </div></div>
-          <div class="row">
-            <div class="form-switch mt-2  col">
-              <label class="me-4" >Terms and Conditions Accepted?</label>&nbsp; &nbsp;&nbsp; &nbsp;
-              <input class="form-check-input" type="checkbox" role="switch"  />
-            </div>
-            <div class="d-grid  d-md-flex justify-content-md-end col">
-              <button class="btn btncolor  p-2" type="button" routerLink="/clientForm">Next<i class="bi bi-arrow-right"></i></button>
+          <div class="col-4 input-group-lg">
+            <label for="Office Address" class="ms-2">Office Address</label>
+            <input
+              type="text"
+              class="form-control mt-2 mb-3 ms-2 box"
+              id="Office Address"
+            />
+          </div>
+          <div class="col-2 input-group-lg">
+            <br />
+            <button class="btn btn-success mt-2 ms-2">+</button>
+            <button class="btn btn-danger mt-2 ms-3">
+              <i class="bi bi-trash-fill"></i>
+            </button>
+          </div>
+          <div></div>
+        </div>
+        <div class="row">
+          <div class="col-3 input-group-lg">
+            <label for="First Name">First Name</label>
+            <input
+              type="text"
+              class="form-control mt-2 mb-3 box"
+              id="First Name"
+            />
+          </div>
+          <div class="col-3 input-group-lg">
+            <label for="Last Name">Last Name</label>
+            <input
+              type="text"
+              class="form-control mt-2 mb-3 box"
+              id="Last Name"
+            />
+          </div>
+          <div class="col-3 input-group-lg">
+            <label for="Phone Number">Phone Number</label>
+            <!-- <input  type="tel"  class="form-control mt-2 mb-3  box" id="Phone Number" > -->
+            <ngx-intl-tel-input
+              class="form-control mt-2 mb-3 box"
+              [preferredCountries]="preferredCountries"
+              [enableAutoCountrySelect]="true"
+              [enablePlaceholder]="true"
+              [searchCountryFlag]="true"
+              [searchCountryField]="[
+                SearchCountryField.Iso2,
+                SearchCountryField.Name
+              ]"
+              [selectFirstCountry]="false"
+              [selectedCountryISO]="CountryISO.India"
+              [maxLength]="15"
+              [phoneValidation]="true"
+              [separateDialCode]="separateDialCode"
+              [numberFormat]="PhoneNumberFormat.National"
+              name="phone"
+            >
+            </ngx-intl-tel-input>
+          </div>
+          <div class="col-3 input-group-lg">
+            <label for="Alt Phone Number">Alt Phone Number</label>
+            <!-- <input
+              type="tel"
+              class="form-control mt-2 mb-3 box"
+              id="Alt Phone Number"
+            /> -->
+            <ngx-intl-tel-input
+            class="form-control mt-2 mb-3 box"
+            [preferredCountries]="preferredCountries"
+            [enableAutoCountrySelect]="true"
+            [enablePlaceholder]="true"
+            [searchCountryFlag]="true"
+            [searchCountryField]="[
+              SearchCountryField.Iso2,
+              SearchCountryField.Name
+            ]"
+            [selectFirstCountry]="false"
+            [selectedCountryISO]="CountryISO.India"
+            [maxLength]="15"
+            [phoneValidation]="true"
+            [separateDialCode]="separateDialCode"
+            [numberFormat]="PhoneNumberFormat.National"
+            name="phone"
+          >
+          </ngx-intl-tel-input>
           </div>
         </div>
-        </form>
-   </div>
+        <div class="row">
+          <div class="col-3 input-group-lg">
+            <label for="Email Address">Email Address</label>
+            <input
+              type="text"
+              class="form-control mt-2 mb-3 box"
+              id="Email Address"
+            />
+          </div>
+          <div class="col-3 input-group-lg">
+            <label for="User Name">User Name</label>
+            <input
+              type="text"
+              class="form-control mt-2 mb-3 box"
+              id="User Name"
+            />
+          </div>
+          <div class="col-3 input-group-lg">
+            <label for="Password">Password</label>
+            <input
+              type="password"
+              class="form-control mt-2 mb-3 box"
+              id="Password"
+            />
+          </div>
+          <div class="col-3 input-group-lg">
+            <label for="Confirm Password">Confirm Password</label>
+            <input
+              type="password"
+              class="form-control mt-2 mb-3 box"
+              id="Confirm Password"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 input-group-lg">
+            <label>How Did You Hear About Us?</label>
+            <select class="form-control mt-2 mb-3 box">
+              <option label="--select  --"></option>
+              <option value="social media">social media</option>
+              <option value="NewPaper">NewPaper</option>
+              <option value="Friends">Friends</option>
+              <option value="Emoplyer">Emoplyer</option>
+            </select>
+          </div>
+          <div class="col-3 input-group-lg">
+            <label>Select Trafic Type</label>
+            <select class="form-control mt-2 mb-3 box">
+              <option label="--select  --"></option>
+              <option value="Congested traffic">Congested traffic</option>
+              <option value="Organized Traffic">Organized Traffic</option>
+              <option value="Heavy motar Vehile">Heavy motar Vehile</option>
+              <option value="Other vehicle">Other Vehile</option>
+            </select>
+          </div>
+          <div class="col-3 input-group-lg">
+            <label>Select Payment Type</label>
+            <select class="form-control mt-2 mb-3 box">
+              <option label="--select  --"></option>
+              <option value="Debit Card">Debit Card</option>
+              <option value="Credit Card">Credit Card</option>
+              <option value="Modile Payment">Modile Payment</option>
+              <option value="Electronic Bank Transfer">
+                Electronic Bank Transfer
+              </option>
+            </select>
+          </div>
+          <div class="col-3 input-group-lg">
+            <label>Upload image</label>
+            <input class="form-control mt-2 mb-3 box" type="file" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-switch mt-2 col">
+            <label class="me-4">Terms and Conditions Accepted?</label>&nbsp;
+            &nbsp;&nbsp; &nbsp;
+            <input class="form-check-input" type="checkbox" role="switch" />
+          </div>
+          <div class="d-grid d-md-flex justify-content-md-end col">
+            <button
+              class="btn btncolor p-2"
+              type="button"
+              routerLink="/clientForm"
+            >
+              Next<i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
 </div>

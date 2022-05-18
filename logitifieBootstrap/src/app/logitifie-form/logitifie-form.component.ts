@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { CountryISO, PhoneNumberFormat, SearchCountryField } from 'ngx-intl-tel-input';
 
 @Component({
   selector: 'app-logitifie-form',
@@ -17,4 +19,10 @@ export class LogitifieFormComponent implements OnInit {
 //     console.log(this.selectedFiles);
 
 // }
+separateDialCode = false;
+SearchCountryField = SearchCountryField;
+CountryISO = CountryISO;
+PhoneNumberFormat = PhoneNumberFormat;
+preferredCountries: CountryISO[] = [CountryISO.UnitedStates, CountryISO.UnitedKingdom];
+
 }
