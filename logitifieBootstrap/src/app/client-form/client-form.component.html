@@ -46,7 +46,7 @@
          <label for="Payment Terms">Payment Terms</label>
          <select class="form-control mt-2 mb-3  box " >
           <option label="--select  --"></option>
-          <option value="term" *ngFor="let term of paymentTerms">{{term}}</option>
+          <!-- <option value="term" *ngFor="let term of paymentTerms">{{term}}</option> -->
         </select>
         </div>
         <div class="col-3  input-group-lg">
@@ -108,7 +108,7 @@
             <label >Salesman Name</label>
             <select class="form-control mt-2 mb-3  box">
              <option label="--select  --"></option>
-             <option value="term" *ngFor="let salemanName of data">{{salemanName.name}}</option>
+             <option value="term" *ngFor="let saleman of data">{{saleman.name}}</option>
              </select>
              </div>
           <div class="col-3  input-group-lg">
@@ -119,7 +119,7 @@
           <label  >Account Manager Name</label>
           <select class="form-control mt-2 mb-3  box">
           <option label="--select  --"></option>
-          <option value="term" *ngFor="let manager of  managers">{{manager}}</option>
+          <option value="term" *ngFor="let manager of  managers">{{manager.name}}</option>
           </select>
         </div>
         <div class="col-3  input-group-lg">
