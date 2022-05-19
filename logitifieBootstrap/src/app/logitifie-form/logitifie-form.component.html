@@ -75,7 +75,6 @@
             <!-- <input  type="tel"  class="form-control mt-2 mb-3  box" id="Phone Number" > -->
             <ngx-intl-tel-input
               class="form-control mt-2 mb-3 box"
-
               [preferredCountries]="preferredCountries"
               [enableAutoCountrySelect]="true"
               [enablePlaceholder]="true"
@@ -94,13 +93,14 @@
             >
             </ngx-intl-tel-input>
           </div>
-          <div class="col-3 input-group-lg">
+          <div class="col-3 ">
             <label for="Alt Phone Number">Alt Phone Number</label>
             <!-- <input
               type="tel"
               class="form-control mt-2 mb-3 box"
               id="Alt Phone Number"
             /> -->
+            <div >
             <ngx-intl-tel-input
             class="form-control mt-2 mb-3 box"
             [preferredCountries]="preferredCountries"
@@ -120,6 +120,7 @@
             name="phone"
           >
           </ngx-intl-tel-input>
+        </div>
           </div>
         </div>
         <div class="row">
@@ -214,3 +215,4 @@
     </div>
   </div>
 </div>
+<!-- " -->
