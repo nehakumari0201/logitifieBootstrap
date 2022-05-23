@@ -1,11 +1,6 @@
-<!-- <div class="row flex-nowrap"> -->
 <div class=" sideNav " [ngClass]="{'size1':!isExpanded}">
-  <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-    <!-- <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                  <span class="fs-5 d-none d-sm-inline">Menu</span>
-              </a> -->
-
-    <ul class="nav nav-pills flex-column mb-sm-auto  mb-0 align-items-center align-items-sm-start" id="menu">
+  <div class=" flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+    <ul class="nav  flex-column mb-sm-auto  mb-0 align-items-center align-items-sm-start" id="menu">
       <li class="nav-item">
         <button (click)="isExpanded=!isExpanded" class="btn">></button>
       </li>
@@ -28,13 +23,6 @@
           </a>
         </div>
       </li>
-
-
-      <!-- <li>
-        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white size">
-          <img src="../../assets/icons/contact.png" class="design  me-1"> <span *ngIf="isExpanded"
-            class="ms-1 d-none d-sm-inline"><b>Client</b></span> </a>
-      </li> -->
       <li class="nav-item dropdown">
         <a class="nav-link   px-0 align-middle text-white size" data-bs-toggle="dropdown" role="button"
           id="dropdownMenu" aria-haspopup="true" aria-expanded="false" ><img src="../../assets/icons/contact.png"
@@ -61,11 +49,6 @@
           <a class="dropdown-item" href="#">New Application</a>
         </div>
       </li>
-      <!-- <li>
-        <a class="nav-link px-0 align-middle text-white ">
-          <img src="../../assets/icons/driver.png" class="design  me-1"><span *ngIf="isExpanded"
-            class="ms-1 d-none d-sm-inline size"><b>Drivers</b></span></a>
-      </li> -->
       <li class="nav-item dropdown">
         <a class="nav-link   px-0 align-middle text-white size" data-bs-toggle="dropdown" role="button"
           id="dropdownMenu" aria-haspopup="true" aria-expanded="false" > <img src="../../assets/icons/partnership.png"
@@ -75,31 +58,6 @@
           </a>
         </div>
       </li>
-
-      <!-- <li>
-        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white size">
-          <img src="../../assets/icons/partnership.png" class="design  me-1"> <span *ngIf="isExpanded"
-            class="ms-1 d-none d-sm-inline"><b>CRM</b></span></a>
-      </li> -->
-      <!-- <li>
-        <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white size">
-          <img src="../../assets/icons/money-bag.png" class="design  me-1"> <span *ngIf="isExpanded"
-            class="ms-1 d-none d-sm-inline"><b>Finance</b></span> </a>
-        <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
-          <li class="w-100">
-            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
-          </li>
-        </ul>
-      </li> -->
       <li class="nav-item dropdown">
         <a class="nav-link   px-0 align-middle text-white size" data-bs-toggle="dropdown" role="button"
           id="dropdownMenu" aria-haspopup="true" aria-expanded="false" > <img src="../../assets/icons/money-bag.png"
@@ -126,11 +84,6 @@
           <a class="dropdown-item" href="#">Lost Property</a>
         </div>
       </li>
-      <!-- <li>
-        <a href="#" class="nav-link px-0 align-middle text-white size">
-          <img src="../../assets/icons/limousine (2).png" class="design  me-1"> <span *ngIf="isExpanded"
-            class="ms-1 d-none d-sm-inline"><b>TEL</b></span> </a>
-      </li> -->
       <li>
         <a href="#" class="nav-link px-0 align-middle text-white size ">
           <img src="../../assets/icons/car (2).png" class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="New Bookings"> <span *ngIf="isExpanded"
@@ -142,4 +95,4 @@
   </div>
 </div>
 
-<!-- </div> -->
+
