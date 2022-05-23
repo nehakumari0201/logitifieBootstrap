@@ -14,6 +14,7 @@ import { DropdownComponent } from './dropdown/dropdown.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Sidenav1Component } from './sidenav1/sidenav1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProgressbarComponent,
     ClientFormComponent,
     ClientForm2Component,
-    DropdownComponent
+    DropdownComponent,
+    Sidenav1Component
 
   ],
   imports: [
