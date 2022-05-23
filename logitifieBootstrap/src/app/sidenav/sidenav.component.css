@@ -5,22 +5,18 @@
   color: white;
   /* width:fit-content; */
   height: 100%;
-}
-.size
-{
   font-size: larger;
-
 }
 .size1{
- width:70px;
+ width:65px;
 }
 
 .design
 {
   border:1px solid white;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
   /* margin-right:5% ; */
 }
 .btn{
@@ -28,4 +24,9 @@
   color:white;
   font-size: larger;
   font-weight: bold;
+}
+@media (min-width:481px){
+  .size2{
+    width:190px;
+  }
 }

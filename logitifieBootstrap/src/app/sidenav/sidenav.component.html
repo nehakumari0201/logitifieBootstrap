@@ -1,19 +1,19 @@
 <div class=" sideNav " [ngClass]="{'size1':!isExpanded}">
   <div class=" flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
     <ul class="nav  flex-column mb-sm-auto  mb-0 align-items-center align-items-sm-start" id="menu">
-      <li class="nav-item">
+      <li class="nav-item size2">
         <button (click)="isExpanded=!isExpanded" class="btn">></button>
       </li>
 
-      <li class="nav-item ">
-        <a href="#" class="nav-link align-middle px-0 text-white size">
+      <li class="nav-item size2">
+        <a href="#" class="nav-link align-middle px-0 text-white ">
           <img src="../../assets/icons/document (1).png" class="design me-1" data-toggle="tooltip" data-placement="bottom" title="Summary" > <span *ngIf="isExpanded"
             class="ms-1 d-none d-sm-inline me-2 "><b>Summary</b></span>
         </a>
       </li>
 
-      <li class="nav-item dropdown ">
-        <a class="nav-link align-middle px-0 text-white size" data-bs-toggle="dropdown" role="button" id="dropdownMenu"
+      <li class="nav-item dropdown size2 ">
+        <a class="nav-link align-middle px-0 text-white " data-bs-toggle="dropdown" role="button" id="dropdownMenu"
           aria-haspopup="true" aria-expanded="false">
           <img src="../../assets/icons/booking (1).png" class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="Clear Bookings"> <span *ngIf="isExpanded" class="ms-1 d-none d-sm-inline me-2 "> <b>Clear
               Bookings</b></span>
@@ -24,7 +24,7 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link   px-0 align-middle text-white size" data-bs-toggle="dropdown" role="button"
+        <a class="nav-link   px-0 align-middle text-white " data-bs-toggle="dropdown" role="button"
           id="dropdownMenu" aria-haspopup="true" aria-expanded="false" ><img src="../../assets/icons/contact.png"
             class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="Client"> <span *ngIf="isExpanded" class="ms-1 d-none d-sm-inline me-2"><b>Client</b></span></a>
         <div class="dropdown-menu" aria-labelledby="dropdownMenu">
@@ -36,8 +36,8 @@
           <a class="dropdown-item" href="#"> New Application </a>
         </div>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link   px-0 align-middle text-white size" data-bs-toggle="dropdown" role="button"
+      <li class="nav-item dropdown size2">
+        <a class="nav-link   px-0 align-middle text-white " data-bs-toggle="dropdown" role="button"
           id="dropdownMenu" aria-haspopup="true" aria-expanded="false" > <img src="../../assets/icons/driver.png"
             class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="Drivers"><span *ngIf="isExpanded" class="ms-1 d-none d-sm-inline size me-2"><b>Drivers</b></span></a>
         <div class="dropdown-menu" aria-labelledby="dropdownMenu">
@@ -49,8 +49,8 @@
           <a class="dropdown-item" href="#">New Application</a>
         </div>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link   px-0 align-middle text-white size" data-bs-toggle="dropdown" role="button"
+      <li class="nav-item dropdown size2">
+        <a class="nav-link   px-0 align-middle text-white " data-bs-toggle="dropdown" role="button"
           id="dropdownMenu" aria-haspopup="true" aria-expanded="false" > <img src="../../assets/icons/partnership.png"
             class="design  me-1"data-toggle="tooltip" data-placement="bottom" title="CRM"> <span *ngIf="isExpanded" class="ms-1 d-none d-sm-inline me-2"><b>CRM</b></span></a>
         <div class="dropdown-menu" aria-labelledby="dropdownMenu">
@@ -58,8 +58,8 @@
           </a>
         </div>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link   px-0 align-middle text-white size" data-bs-toggle="dropdown" role="button"
+      <li class="nav-item dropdown size2">
+        <a class="nav-link   px-0 align-middle text-white " data-bs-toggle="dropdown" role="button"
           id="dropdownMenu" aria-haspopup="true" aria-expanded="false" > <img src="../../assets/icons/money-bag.png"
             class="design  me-1"data-toggle="tooltip" data-placement="bottom" title="Finance"> <span *ngIf="isExpanded" class="ms-1 d-none d-sm-inline me-2"><b>Finance</b></span> </a>
         <div class="dropdown-menu" aria-labelledby="dropdownMenu">
@@ -72,8 +72,8 @@
           <a class="dropdown-item" href="#"> Driver Payment Summary</a>
         </div>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link   px-0 align-middle text-white size" data-bs-toggle="dropdown" role="button"
+      <li class="nav-item dropdown size2">
+        <a class="nav-link   px-0 align-middle text-white " data-bs-toggle="dropdown" role="button"
           id="dropdownMenu" aria-haspopup="true" aria-expanded="false" > <img src="../../assets/icons/limousine (2).png"
             class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="TEL"> <span *ngIf="isExpanded" class="ms-1 d-none d-sm-inline me-2"><b>TEL</b></span> </a>
         <div class="dropdown-menu" aria-labelledby="dropdownMenu">
@@ -84,14 +84,14 @@
           <a class="dropdown-item" href="#">Lost Property</a>
         </div>
       </li>
-      <li>
-        <a href="#" class="nav-link px-0 align-middle text-white size ">
+      <li class="nav-items size2">
+        <a href="#" class="nav-link px-0 align-middle text-white ">
           <img src="../../assets/icons/car (2).png" class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="New Bookings"> <span *ngIf="isExpanded"
             class="ms-1 d-none d-sm-inline me-2"><b>New Bookings</b></span> </a>
       </li>
 
     </ul>
-    <hr>
+
   </div>
 </div>
 

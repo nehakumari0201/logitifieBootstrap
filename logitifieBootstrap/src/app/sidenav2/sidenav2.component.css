@@ -1,0 +1,18 @@
+.sideNav
+{
+  background: #01054F;
+  box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.45);
+  color: white;
+  height: 100%;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.design
+{
+  border:1px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  /* margin-right:5% ; */
+}
