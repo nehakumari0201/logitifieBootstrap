@@ -13,3 +13,13 @@ height: 10%;
   margin: 0% 4%;
 }
 
+@media screen and (max-width: 480px) {
+  .menu{
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) {
+  .side{
+    display: none;
+  }
+}

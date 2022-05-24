@@ -10,10 +10,12 @@
     </div>
 </nav>
 <div class="d-flex flex-lg-row">
-  <div>
- <app-sidenav></app-sidenav>
+  <div >
+ <app-sidenav class="menu" ></app-sidenav>
+
   </div>
-  <div class="p-2 flex-grow-1 bd-highlight m-2">
+  <div class="p-2  flex-grow-1 bd-highlight m-2 ">
+    <app-mobilesidebar class="side"></app-mobilesidebar>
     <router-outlet></router-outlet>
   </div>
 </div>

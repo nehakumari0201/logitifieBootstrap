@@ -34,6 +34,18 @@
   margin-right: 8%;
 }
 
-ngx-intl-tel-input{
- width:100%;
+:host ::ng-deep ngx-intl-tel-input input {
+	border:none;
+}
+
+:host ::ng-deep ngx-intl-tel-input  input:hover {
+	border:none;
+}
+
+:host ::ng-deep ngx-intl-tel-input input:focus {
+	/* outline: none !important; */
+  border: none;
+}
+:host ::ng-deep ngx-intl-tel-input.ng-invalid.ng-touched input {
+border: none;
 }

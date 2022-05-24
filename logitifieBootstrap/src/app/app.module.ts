@@ -16,6 +16,7 @@ import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Sidenav1Component } from './sidenav1/sidenav1.component';
 import { Sidenav2Component } from './sidenav2/sidenav2.component';
+import { MobilesidebarComponent } from './mobilesidebar/mobilesidebar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,8 @@ import { Sidenav2Component } from './sidenav2/sidenav2.component';
     ClientForm2Component,
     DropdownComponent,
     Sidenav1Component,
-    Sidenav2Component
+    Sidenav2Component,
+    MobilesidebarComponent
 
   ],
   imports: [

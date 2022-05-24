@@ -1,3 +1,4 @@
+import { MobilesidebarComponent } from './mobilesidebar/mobilesidebar.component';
 import { Sidenav1Component } from './sidenav1/sidenav1.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { ClientForm2Component } from './client-form2/client-form2.component';
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'clientForm',component:ClientFormComponent},
   {path:'clientForm2',component:ClientForm2Component},
   {path:'drop',component:DropdownComponent},
-  {path:'sidebar',component:Sidenav2Component}
+  {path:'sidebar',component:Sidenav2Component},
+  {path:'mobile',component:MobilesidebarComponent}
 ];
 
 @NgModule({
