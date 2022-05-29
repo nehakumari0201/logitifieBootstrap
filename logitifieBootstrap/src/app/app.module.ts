@@ -17,6 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Sidenav1Component } from './sidenav1/sidenav1.component';
 import { Sidenav2Component } from './sidenav2/sidenav2.component';
 import { MobilesidebarComponent } from './mobilesidebar/mobilesidebar.component';
+import { SideBarComponent } from './side-bar/side-bar.component';
+import { MenuComponent } from './menu/menu.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,9 @@ import { MobilesidebarComponent } from './mobilesidebar/mobilesidebar.component'
     DropdownComponent,
     Sidenav1Component,
     Sidenav2Component,
-    MobilesidebarComponent
+    MobilesidebarComponent,
+    SideBarComponent,
+    MenuComponent
 
   ],
   imports: [

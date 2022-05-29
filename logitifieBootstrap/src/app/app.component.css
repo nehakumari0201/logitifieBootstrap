@@ -13,13 +13,54 @@ height: 10%;
   margin: 0% 4%;
 }
 
-@media screen and (max-width: 480px) {
-  .menu{
-    display: none;
-  }
+:root{
+  --offcanvas-width:auto;
+  --topNavbarHeigth:10%;
+  /* --offcanvas-height:auto; */
 }
-@media screen and (min-width: 481px) {
-  .side{
+
+.sidebar-nav{
+  background: #01054F;
+  box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.45);
+  color: white;
+  font-size: larger;
+}
+
+@media(min-width:992px) {
+  .offcanvas-backdrop::before{
     display: none;
   }
+  .main{
+    margin-left: var(--offcanvas-width);
+  }
+  .sidebar-nav{
+    transform: none;
+    visibility: visible !important;
+    top:10%;
+    position: absolute;
+    height: calc(100% - var(--topNavbarHeigth));
+  }
+.btnoff{
+  visibility: hidden;
+}
+}
+
+.design
+{
+  border:1px solid rgb(253, 252, 252);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  }
+.sidenav{
+  width:80px;
+}
+.sidebarMargin{
+  margin-left: 80px;
+}
+
+@media(max-width:992px){
+ .btn1{
+   visibility: hidden;
+ }
 }

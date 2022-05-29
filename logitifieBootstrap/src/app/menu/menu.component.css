@@ -1,0 +1,22 @@
+
+:root{
+  --offcanvas-width:180px;
+  /* --topNavbarHeigth:10%; */
+}
+
+.sidebar-nav{
+  width:var(--offcanvas-width);
+}
+
+@media(min-width:992px) {
+  .offcanvas-backdrop::before{
+    display: none;
+  }
+  .sidebar-nav{
+    transform: none;
+    visibility: visible !important;
+    top:12%;
+    /* height: calc(100% - var(--topNavbarHeigth)); */
+  }
+
+}
