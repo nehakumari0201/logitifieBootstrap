@@ -3,7 +3,6 @@
   background: #01054F;
   box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.45);
   color: white;
-  /* width:fit-content; */
   height: 100%;
   font-size: larger;
 }
@@ -29,4 +28,19 @@
   .size2{
     width:190px;
   }
+}
+a:hover{
+  background-color: red;
+}
+a:active{
+  background-color: red;
+}
+.dropdown-menu{
+  background: #C5CBE3;
+}
+.dropdown-item{
+  font-weight: bold;
+}
+.dropdown-item:hover{
+ background-color: white;
 }

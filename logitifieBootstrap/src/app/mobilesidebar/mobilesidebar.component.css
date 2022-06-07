@@ -1,0 +1,17 @@
+.sidebar-nav{
+  background: #01054F;
+  box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.45);
+  color: white;
+  font-size: larger;
+}
+.design
+{
+  border:1px solid rgb(253, 252, 252);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  }
+.btn-close{
+  color:white !important;
+  font-weight: bold;
+}

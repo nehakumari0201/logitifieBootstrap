@@ -1,3 +1,4 @@
+import { MapComponent } from './map/map.component';
 import { MenuComponent } from './menu/menu.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { MobilesidebarComponent } from './mobilesidebar/mobilesidebar.component';
@@ -11,6 +12,7 @@ import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LogitifieFormComponent } from './logitifie-form/logitifie-form.component';
 import { Sidenav2Component } from './sidenav2/sidenav2.component';
+import { SidemenuComponent } from './sidemenu/sidemenu.component';
 
 const routes: Routes = [
   {path:'logitifieForm',component:LogitifieFormComponent},
@@ -23,7 +25,8 @@ const routes: Routes = [
   // {path:'sidebar',component:Sidenav2Component},
   // {path:'mobile',component:MobilesidebarComponent},
   // {path:'side',component:SideBarComponent}
-  {path:'menu',component:MenuComponent}
+  {path:'menu',component:SidemenuComponent},
+  {path:'map',component:MapComponent}
 ];
 
 @NgModule({

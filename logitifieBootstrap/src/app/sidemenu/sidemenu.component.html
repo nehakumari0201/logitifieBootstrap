@@ -1,0 +1,104 @@
+<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+  <span class="navbar-toggler-icon" data-bs-target="#offcanvasExample"></span>
+</button>
+<div class="offcanvas offcanvas-start sidebar-nav"  [ngClass]="{'sidenav':!isExpanded}"  tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+       <button type="button" class="btn-close text-reset btnoff" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  <nav >
+    <ul class="navbar-nav">
+      <li >
+        <button (click)="isExpanded=!isExpanded" class="btn text-white px-3 btn1">></button>
+      </li>
+      <li>
+        <a href="#" class="nav-link px-3 active text-white">
+          <img src="../assets/icons/document (1).png" class="design me-1">
+          <span *ngIf="isExpanded" class="fw-bold">Summary</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link px-3 text-white " data-bs-toggle="dropdown" role="button" id="dropdownMenu"
+        aria-haspopup="true" aria-expanded="false">
+        <img src="../assets/icons/booking (1).png" class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="Clear Bookings"> <span *ngIf="isExpanded" class="ms-1  me-2 "> <b>Clear
+            Bookings</b></span>
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu"data-toggle="tooltip" >
+        <a class="dropdown-item" href="#">Clear
+        </a>
+      </div>
+      </li>
+      <li>
+        <a class="nav-link   px-3  text-white " data-bs-toggle="dropdown" role="button"
+        id="dropdownMenu" aria-haspopup="true" aria-expanded="false" ><img src="../assets/icons/contact.png"
+          class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="Client"> <span *ngIf="isExpanded" class="ms-1  me-2"><b>Client</b></span></a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+        <a class="dropdown-item" href="#">Corporate
+        </a>
+        <a class="dropdown-item" href="#"> Individual
+        </a>
+        <a class="dropdown-item" href="#"> Subcontractor</a>
+        <a class="dropdown-item" href="#"> New Application </a>
+      </div>
+      </li>
+      <li>
+        <a class="nav-link   px-3  text-white " data-bs-toggle="dropdown" role="button"
+          id="dropdownMenu" aria-haspopup="true" aria-expanded="false" > <img src="../../assets/icons/driver.png"
+            class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="Drivers"><span *ngIf="isExpanded" class="ms-1 me-2"><b>Drivers</b></span></a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+          <a class="dropdown-item" href="#">Fleet Driver
+          </a>
+          <a class="dropdown-item" href="#">Own Driver
+          </a>
+          <a class="dropdown-item" href="#">Subcontractor</a>
+          <a class="dropdown-item" href="#">New Application</a>
+        </div>
+      </li>
+      <li>
+        <a class="nav-link   px-3  text-white " data-bs-toggle="dropdown" role="button"
+          id="dropdownMenu" aria-haspopup="true" aria-expanded="false" > <img src="../../assets/icons/partnership.png"
+            class="design  me-1"data-toggle="tooltip" data-placement="bottom" title="CRM"> <span *ngIf="isExpanded" class="ms-1  me-2"><b>CRM</b></span></a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+          <a class="dropdown-item" href="#">Salesman Summary
+          </a>
+        </div>
+      </li>
+      <li >
+        <a class="nav-link   px-3 text-white " data-bs-toggle="dropdown" role="button"
+          id="dropdownMenu" aria-haspopup="true" aria-expanded="false" > <img src="../assets/icons/money-bag.png"
+            class="design  me-1"data-toggle="tooltip" data-placement="bottom" title="Finance"> <span *ngIf="isExpanded" class="ms-1  me-2"><b>Finance</b></span> </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+          <a class="dropdown-item" href="#">Finance Report
+          </a>
+          <a class="dropdown-item" href="#">Invoice Summary
+          </a>
+          <a class="dropdown-item" href="#">Generate Invoice</a>
+          <a class="dropdown-item" href="#">Payment Link Summary</a>
+          <a class="dropdown-item" href="#"> Driver Payment Summary</a>
+        </div>
+      </li>
+      <li >
+        <a class="nav-link   px-3 text-white " data-bs-toggle="dropdown" role="button"
+          id="dropdownMenu" aria-haspopup="true" aria-expanded="false" > <img src="../assets/icons/limousine (2).png"
+            class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="TEL"> <span *ngIf="isExpanded" class="ms-1  me-2"><b>TEL</b></span> </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+          <a class="dropdown-item" href="#">TEL Report Summary
+          </a>
+          <a class="dropdown-item" href="#">Complaints
+          </a>
+          <a class="dropdown-item" href="#">Lost Property</a>
+        </div>
+      </li>
+      <li >
+        <a href="#" class="nav-link px-3 text-white ">
+          <img src="../assets/icons/car (2).png" class="design  me-1" data-toggle="tooltip" data-placement="bottom" title="New Bookings"> <span *ngIf="isExpanded"
+            class="ms-1  me-2"><b>New Bookings</b></span> </a>
+      </li>
+
+    </ul>
+
+  </nav>
+    </div>
+</div>
+
+

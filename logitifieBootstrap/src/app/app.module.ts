@@ -19,6 +19,9 @@ import { Sidenav2Component } from './sidenav2/sidenav2.component';
 import { MobilesidebarComponent } from './mobilesidebar/mobilesidebar.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { MenuComponent } from './menu/menu.component';
+import { SidemenuComponent } from './sidemenu/sidemenu.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { MapComponent } from './map/map.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +35,10 @@ import { MenuComponent } from './menu/menu.component';
     Sidenav2Component,
     MobilesidebarComponent,
     SideBarComponent,
-    MenuComponent
+    MenuComponent,
+    SidemenuComponent,
+    NavBarComponent,
+    MapComponent
 
   ],
   imports: [

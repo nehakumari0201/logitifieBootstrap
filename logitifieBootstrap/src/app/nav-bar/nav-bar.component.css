@@ -12,17 +12,3 @@ height: 10%;
 {
   margin: 0% 4%;
 }
-
-@media (max-width:480px ) {
- .lab{
-   display: none;
- }
-}
-@media (min-width: 481px) {
-  .mob{
-    visibility: hidden;
-  }
-}
-
-
-
