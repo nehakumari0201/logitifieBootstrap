@@ -1,3 +1,22 @@
-
-<div #mapContainer id="map" class="content" >
+<div  class="row">
+  <div class="col-6">
+    <div class="col-12  input-group-lg  ">
+      <label for="pickup Address">pickup Address</label>
+      <input
+        type="text" #pickup
+        class="form-control   "/>
+    </div>
+    <div class="col-12  input-group-lg ">
+      <label for="drop Address" >Drop Address</label>
+      <input
+        type="text" #drop
+        class="form-control"
+      />
+    </div>
+    <button (click)="calculateAndDisplayDistanceAndDuration()">show direction</button>
+  </div>
+  <div class="col-6">
+    <div #mapContainer id="gmap-canvas" class="content" >
+    </div>
+  </div>
 </div>

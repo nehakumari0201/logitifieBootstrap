@@ -22,6 +22,7 @@ import { MenuComponent } from './menu/menu.component';
 import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MapComponent } from './map/map.component';
+import { GetTransferComponent } from './get-transfer/get-transfer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +39,8 @@ import { MapComponent } from './map/map.component';
     MenuComponent,
     SidemenuComponent,
     NavBarComponent,
-    MapComponent
+    MapComponent,
+    GetTransferComponent
 
   ],
   imports: [
