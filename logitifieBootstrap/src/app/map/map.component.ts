@@ -27,7 +27,7 @@ export class MapComponent implements OnInit, AfterViewInit {
   marker = new google.maps.Marker({
     position: this.coordinates,
     map: this.map,
-    animation: google.maps.Animation.BOUNCE,
+    // animation: google.maps.Animation.BOUNCE,
     draggable: true
   });
   directionsRenderer = new google.maps.DirectionsRenderer();

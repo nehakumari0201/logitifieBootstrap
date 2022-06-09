@@ -1,3 +1,4 @@
+import { GetTransferComponent } from './get-transfer/get-transfer.component';
 import { MapComponent } from './map/map.component';
 import { MenuComponent } from './menu/menu.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
@@ -26,7 +27,8 @@ const routes: Routes = [
   // {path:'mobile',component:MobilesidebarComponent},
   // {path:'side',component:SideBarComponent}
   {path:'menu',component:SidemenuComponent},
-  {path:'map',component:MapComponent}
+  {path:'map',component:MapComponent},
+  {path:'transfer',component:GetTransferComponent}
 ];
 
 @NgModule({

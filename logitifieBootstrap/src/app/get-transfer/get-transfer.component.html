@@ -1,1 +1,89 @@
-<p>get-transfer works!</p>
+<div class="row">
+  <div class="btn-group col-8" role="group" aria-label="Basic example">
+    <button type="button" class="btn col-3">TRANSFER</button>
+    <button type="button" class="btn col-3">TAXI</button>
+    <button type="button" class="btn col-3">PER HOUR</button>
+    <button type="button" class="btn col-3">DELIVERY</button>
+  </div>
+
+  <div class="col-8">
+    <div class="col-12  input-group-lg  ">
+      <label for="Form">Form</label>
+      <input type="text" class="form-control   " #start />
+    </div>
+    <div class="col-12  input-group-lg ">
+      <label for="To">To</label>
+      <input type="text" #end class="form-control" />
+    </div>
+    <div class="form-check input-group-lg mt-4">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        Offer Your Price
+      </label>
+    </div>
+    <div class="input-group-lg col-12">
+      <input type="text" placeholder="Offer Your price">
+    </div>
+    <div class="row">
+      <div class="col-6 input-group-lg">
+        <label for="date"> Transfer date</label>
+        <input type="date" class="form-control   " />
+      </div>
+      <div class="col-6 input-group-lg">
+        <label for="time">time</label>
+        <input type="time" class="form-control   " />
+      </div>
+    </div>
+    <div class="col-12  input-group-lg">
+      <label for="flight number">flight number</label>
+      <input type="text" class="form-control" />
+    </div>
+    <div class="form-check input-group-lg mt-4">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        Add return Way
+      </label>
+    </div>
+    <div class="row">
+      <div class="col-6 input-group-lg">
+        <label for="date"> Return date</label>
+        <input type="date" class="form-control   " />
+      </div>
+      <div class="col-6 input-group-lg">
+        <label for="time">time</label>
+        <input type="time" class="form-control   " />
+      </div>
+    </div>
+    <div>
+      <label>Adults</label>
+      <div class="d-flex justify-content-center">
+        <button class="btn btn-success">+</button>
+        <input>
+        <button class="btn btn-primary">-</button>
+      </div>
+    </div>
+    <div>
+      <input placeholder="child seats" class="form-control">
+    </div>
+    <div>
+      <input placeholder="name">
+    </div>
+    <div>
+      <input placeholder="comment">
+    </div>
+    <div>
+      <input type="email" placeholder="email">
+    </div>
+    <div class="form-check input-group-lg mt-4">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        I accept the terms of get transfer service agreement?
+      </label>
+    </div>
+  </div>
+  <div class="col-4">
+    <div #mapContainer id="map" class="content">
+    </div>
+  </div>
+
+</div>
